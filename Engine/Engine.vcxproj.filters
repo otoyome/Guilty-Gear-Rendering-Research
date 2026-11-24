@@ -1,0 +1,366 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{80b01986-9419-4ea3-b9a2-e9543f7bfc5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{11ba890f-8786-4096-9423-f67584441e95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Collision">
+      <UniqueIdentifier>{a572c795-5702-4af4-bae0-cb57a2741a4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Collision">
+      <UniqueIdentifier>{da833294-ed0f-43f8-9c0d-b0c31c79b592}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Input">
+      <UniqueIdentifier>{cdce47c4-dae5-4060-b42a-5fadccabf110}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Input">
+      <UniqueIdentifier>{7e3c7c6c-227e-478a-b2e5-43180f9f559e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Graphics">
+      <UniqueIdentifier>{9eaa5a3c-3c5b-4da9-b65b-384a6f4bb771}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Graphics">
+      <UniqueIdentifier>{ac5af133-a154-4739-87b4-b0051487e7b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\ModelFormat">
+      <UniqueIdentifier>{38d5a7b7-f182-43ab-afba-40e784ccaacc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\ModelFormat">
+      <UniqueIdentifier>{6507c3bd-d416-44ff-89cf-7cfcfb2c0305}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\System">
+      <UniqueIdentifier>{ef7754fe-60ab-420e-93e2-dc09748c829e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\System">
+      <UniqueIdentifier>{e9ad7f50-3ef2-4dce-a355-5b19730d07e5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Headers\geometric_primitive.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\light_data.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\render_data.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\shader.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\sprite.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\texture.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\render_pass.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\graphics_utility.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\graphics_context.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\light.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\material.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\model_instance.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\model_resource.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\pipeline_state.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\buffer_view.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\camera.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Collision\frustum_culling.h">
+      <Filter>Headers\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Collision\line.h">
+      <Filter>Headers\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Collision\plane.h">
+      <Filter>Headers\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Collision\sphere.h">
+      <Filter>Headers\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Collision\collision.h">
+      <Filter>Headers\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Collision\box.h">
+      <Filter>Headers\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Collision\capsule.h">
+      <Filter>Headers\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Input\mouse.h">
+      <Filter>Headers\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Input\keyboard.h">
+      <Filter>Headers\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Graphics\debug_primitive_collector.h">
+      <Filter>Headers\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Collision\mesh.h">
+      <Filter>Headers\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Input\input.h">
+      <Filter>Headers\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\post_process_volume.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\common_pipeline_states.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\font_data.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\animation_resource.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\animation_data_version.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\custom_pipeline_state.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\stdafx_engine.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\ModelFormat\pmx_definision.h">
+      <Filter>Headers\ModelFormat</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\ModelFormat\pmx_loader.h">
+      <Filter>Headers\ModelFormat</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\ModelFormat\pmx_model.h">
+      <Filter>Headers\ModelFormat</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\ModelFormat\vmd_definision.h">
+      <Filter>Headers\ModelFormat</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\ModelFormat\vmd_loader.h">
+      <Filter>Headers\ModelFormat</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Collision\raycast.h">
+      <Filter>Headers\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\System\enum_class_attribute.h">
+      <Filter>Headers\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\System\logger.h">
+      <Filter>Headers\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\System\math_utility.h">
+      <Filter>Headers\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\System\misc.h">
+      <Filter>Headers\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\System\system_units.h">
+      <Filter>Headers\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\System\system_utility.h">
+      <Filter>Headers\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\System\high_resolution_timer.h">
+      <Filter>Headers\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\System\singleton.h">
+      <Filter>Headers\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\ModelFormat\gltf_loader.h">
+      <Filter>Headers\ModelFormat</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\System\variable_position_allocator.h">
+      <Filter>Headers\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Graphics\direct_x_helper.h">
+      <Filter>Headers\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Graphics\fast_fourier_transform.h">
+      <Filter>Headers\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Graphics\gpu_timer.h">
+      <Filter>Headers\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\System\cpu_timer.h">
+      <Filter>Headers\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\retarget_profile.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\data_converter.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\System\engine_config_data.h">
+      <Filter>Headers\System</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Sources\geometric_primitive.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\render_data.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\shader.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\sprite.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\texture.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\render_pass.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\light_data.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\light.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\model_resource.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\model_instance.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\material.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\pipeline_state.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\graphics_context.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\camera.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Collision\collision.cpp">
+      <Filter>Sources\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Collision\box.cpp">
+      <Filter>Sources\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Collision\capsule.cpp">
+      <Filter>Sources\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Collision\frustum_culling.cpp">
+      <Filter>Sources\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Collision\line.cpp">
+      <Filter>Sources\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Collision\plane.cpp">
+      <Filter>Sources\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Collision\sphere.cpp">
+      <Filter>Sources\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Input\mouse.cpp">
+      <Filter>Sources\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Input\keyboard.cpp">
+      <Filter>Sources\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Graphics\debug_primitive_collector.cpp">
+      <Filter>Sources\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Collision\mesh.cpp">
+      <Filter>Sources\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\post_process_volume.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\font_data.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\animation_resource.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\custom_pipeline_state.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\stdafx_engine.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ModelFormat\pmx_loader.cpp">
+      <Filter>Sources\ModelFormat</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ModelFormat\pmx_model.cpp">
+      <Filter>Sources\ModelFormat</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ModelFormat\vmd_loader.cpp">
+      <Filter>Sources\ModelFormat</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Collision\raycast.cpp">
+      <Filter>Sources\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\System\logger.cpp">
+      <Filter>Sources\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\System\system_units.cpp">
+      <Filter>Sources\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\System\math_utility.cpp">
+      <Filter>Sources\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\ModelFormat\gltf_loader.cpp">
+      <Filter>Sources\ModelFormat</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Graphics\variable_position_allocator.cpp">
+      <Filter>Sources\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\model_resource_convert_vrm.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Graphics\fast_fourier_transform.cpp">
+      <Filter>Sources\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Graphics\gpu_timer.cpp">
+      <Filter>Sources\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\model_resource_generate_lod_mesh.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\System\cpu_timer.cpp">
+      <Filter>Sources\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\retarget_profile.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\data_converter_gltf.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\data_converter.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\System\engine_config_data.cpp">
+      <Filter>Sources\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\data_converter_mmd.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

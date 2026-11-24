@@ -1,0 +1,774 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{b6e6fd0b-d201-4294-8979-75748f5bad52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Scenes">
+      <UniqueIdentifier>{6d50cf44-5ce5-4d61-9d00-bce772a8bf3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Scenes">
+      <UniqueIdentifier>{c2845836-93a2-447c-8c3d-ae32aa15c5d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External">
+      <UniqueIdentifier>{32435ba7-87c6-4abb-9ec3-e48f52a834ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Common">
+      <UniqueIdentifier>{a6f3d54d-5f67-4dc3-8f9c-ee254b699bfa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\DeferredRendering">
+      <UniqueIdentifier>{70846145-2b0c-4cd7-a374-545387993dc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\FullscreenQuad">
+      <UniqueIdentifier>{d36f6894-3a3a-4600-9b2c-b1d5681c6a3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\GeometricPrimitive">
+      <UniqueIdentifier>{98d38c74-0966-410f-ab2a-89951dd104da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Gltf">
+      <UniqueIdentifier>{1ab635d9-bf1b-449a-ad7c-5767e91a1d09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\SkyBox">
+      <UniqueIdentifier>{7a001cd2-1f8f-4fc5-a370-f2284bb046b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Sprite">
+      <UniqueIdentifier>{b78eb1df-d142-4d65-9ee2-62e56ea17994}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Renderer">
+      <UniqueIdentifier>{0a697d62-35c4-4204-8963-4b3f87adf4be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Renderer">
+      <UniqueIdentifier>{114bf885-f531-4173-9dc6-83c09dfddb0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\PipelineState">
+      <UniqueIdentifier>{698ce4af-3de7-4c52-b953-5170e66c0422}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\PipelineState">
+      <UniqueIdentifier>{bad17761-2b00-4176-9e4a-7dc9dede0932}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Model">
+      <UniqueIdentifier>{a831a2fa-cc9e-4f04-bbe8-2d9b9d5dcc47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Editor">
+      <UniqueIdentifier>{9bb61c52-1a3f-4b15-85eb-e9af256a7cb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Editor">
+      <UniqueIdentifier>{a4cfdceb-cf85-4eb2-a9d4-e863b39b7892}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Object">
+      <UniqueIdentifier>{856b83e9-0580-4d3d-83b5-6640fc2fc78d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Object">
+      <UniqueIdentifier>{50dd8dad-ac52-4726-985a-9b510c8171d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Scenes\EditScene">
+      <UniqueIdentifier>{9de11db5-977a-47a4-8211-74edb6071a66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Scenes\EditScene">
+      <UniqueIdentifier>{f2732cce-9264-4981-8567-b79649cb65c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Postprocess">
+      <UniqueIdentifier>{40ac19a7-b325-4153-8ca2-351f3d85b4e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External\imgui">
+      <UniqueIdentifier>{5d2ed881-4062-49d0-a1ce-86240074d016}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Postprocess\DepthOfField">
+      <UniqueIdentifier>{a0a93320-f701-42b5-a12d-d9ef3f1ccd15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Postprocess\ScreenSpaceReflection">
+      <UniqueIdentifier>{7fd79530-ebb9-4c37-92db-7af1837c3984}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Postprocess\Antialias">
+      <UniqueIdentifier>{1393b0e6-38e2-4397-9086-9a93178e2b68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External\subpixel_morphological_anti_aliasing">
+      <UniqueIdentifier>{ad72f8c3-25d0-45d8-a4e2-290699d74860}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External\subpixel_morphological_anti_aliasing\textures">
+      <UniqueIdentifier>{701a6f95-bc7f-44c5-9bd4-90b7091d263b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Postprocess\MotionBlur">
+      <UniqueIdentifier>{74595253-d98f-4d12-8437-1c0657c1d2d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Postprocess\ColorGrading">
+      <UniqueIdentifier>{e8ba854d-507d-405f-95f0-4b874a4b7f99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External\implot">
+      <UniqueIdentifier>{94339a6d-92d4-4722-b429-c4f12d474c40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Postprocess\System">
+      <UniqueIdentifier>{b40131cb-6489-45ac-8dd7-c5f8ffa6d9b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Postprocess\Bloom">
+      <UniqueIdentifier>{80d22e71-e433-4ee5-b83b-ebebeefa5127}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External\imtimeline">
+      <UniqueIdentifier>{b6e36ec5-3757-4314-a1e3-8c313120f488}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External\imguizmo">
+      <UniqueIdentifier>{bf47a5d0-1eda-4041-8b47-2dc7e7feffe5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External\ImGuiCurveEditor">
+      <UniqueIdentifier>{67033007-a9b8-4e31-b138-568b579eef40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Ggst">
+      <UniqueIdentifier>{2ae2696a-de80-44ce-bfd1-668add20aafc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External\im-neo-sequencer">
+      <UniqueIdentifier>{abc8fb22-69a9-41fa-8f7f-9ed166858373}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External\ImGuiExternal">
+      <UniqueIdentifier>{bc84b3e6-3d4a-46f1-9323-ae47996c32df}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\External\imgui\imgui.cpp">
+      <Filter>External\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\imgui\imgui_draw.cpp">
+      <Filter>External\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\imgui\imgui_impl_dx11.cpp">
+      <Filter>External\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\imgui\imgui_impl_win32.cpp">
+      <Filter>External\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\imgui\imgui_ja_gryph_ranges.cpp">
+      <Filter>External\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\imgui\imgui_tables.cpp">
+      <Filter>External\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\imgui\imgui_widgets.cpp">
+      <Filter>External\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Scenes\scene_base.cpp">
+      <Filter>Sources\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\main.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\framework.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Renderer\scene_renderer.cpp">
+      <Filter>Sources\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Renderer\renderer.cpp">
+      <Filter>Sources\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\stdafx.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Scenes\load_shader_scene.cpp">
+      <Filter>Sources\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\PipelineState\deferred_lighting_pipeline_state.cpp">
+      <Filter>Sources\PipelineState</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\PipelineState\debug_draw_line_pipeline_state.cpp">
+      <Filter>Sources\PipelineState</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Editor\editor_camera.cpp">
+      <Filter>Sources\Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Object\game_object.cpp">
+      <Filter>Sources\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Object\object_manager.cpp">
+      <Filter>Sources\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Object\model_object.cpp">
+      <Filter>Sources\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Object\light_object.cpp">
+      <Filter>Sources\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Object\camera_object.cpp">
+      <Filter>Sources\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Scenes\EditScene\edit_model_scene.cpp">
+      <Filter>Sources\Scenes\EditScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\PipelineState\post_process_pipeline_state.cpp">
+      <Filter>Sources\PipelineState</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\framework_imgui.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\PipelineState\fullscreen_quad_pipeline_state.cpp">
+      <Filter>Sources\PipelineState</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Object\post_process_volume_object.cpp">
+      <Filter>Sources\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Editor\editor_items.cpp">
+      <Filter>Sources\Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Renderer\scene_renderer_forward.cpp">
+      <Filter>Sources\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Renderer\scene_renderer_postprocess.cpp">
+      <Filter>Sources\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\PipelineState\anti_alias_pipeline_state.cpp">
+      <Filter>Sources\PipelineState</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\implot\implot.cpp">
+      <Filter>External\implot</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\implot\implot_items.cpp">
+      <Filter>External\implot</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\imtimeline\ImTimeline.cpp">
+      <Filter>External\imtimeline</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Renderer\render_job_executor.cpp">
+      <Filter>Sources\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Object\messenger.cpp">
+      <Filter>Sources\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Scenes\EditScene\edit_model_scene_edit_window.cpp">
+      <Filter>Sources\Scenes\EditScene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\ImGuizmo\ImGradient.cpp">
+      <Filter>External\imguizmo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\ImGuizmo\ImGuizmo.cpp">
+      <Filter>External\imguizmo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\ImGuizmo\ImSequencer.cpp">
+      <Filter>External\imguizmo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\ImGuizmo\GraphEditor.cpp">
+      <Filter>External\imguizmo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\ImGuizmo\ImCurveEdit.cpp">
+      <Filter>External\imguizmo</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Editor\editor_items_animation.cpp">
+      <Filter>Sources\Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\ImguiCurveEditor\ImGuiCurveEditor.cpp">
+      <Filter>External\ImGuiCurveEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\im-neo-sequencer\imgui_neo_internal.cpp">
+      <Filter>External\im-neo-sequencer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\im-neo-sequencer\imgui_neo_sequencer.cpp">
+      <Filter>External\im-neo-sequencer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\External\ImGuiExternal\imgui_external.cpp">
+      <Filter>External\ImGuiExternal</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Editor\editor_items_display.cpp">
+      <Filter>Sources\Editor</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\External\imgui\imgui.h">
+      <Filter>External\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\imgui\imgui_impl_dx11.h">
+      <Filter>External\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\imgui\imgui_impl_win32.h">
+      <Filter>External\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\imgui\imgui_internal.h">
+      <Filter>External\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\imgui\imstb_rectpack.h">
+      <Filter>External\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\imgui\imstb_textedit.h">
+      <Filter>External\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\imgui\imstb_truetype.h">
+      <Filter>External\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\imgui\imconfig.h">
+      <Filter>External\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Scenes\scene_base.h">
+      <Filter>Headers\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\framework.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Renderer\scene_renderer.h">
+      <Filter>Headers\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Renderer\renderer.h">
+      <Filter>Headers\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\stdafx.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Scenes\load_shader_scene.h">
+      <Filter>Headers\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Renderer\scene_render_targets.h">
+      <Filter>Headers\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\PipelineState\deferred_lighting_pipeline_state.h">
+      <Filter>Headers\PipelineState</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\PipelineState\debug_draw_line_pipeline_state.h">
+      <Filter>Headers\PipelineState</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Editor\editor_camera.h">
+      <Filter>Headers\Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Object\game_object.h">
+      <Filter>Headers\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Object\object_manager.h">
+      <Filter>Headers\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Object\light_object.h">
+      <Filter>Headers\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Object\model_object.h">
+      <Filter>Headers\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Object\camera_object.h">
+      <Filter>Headers\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Scenes\EditScene\edit_model_scene.h">
+      <Filter>Headers\Scenes\EditScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\PipelineState\post_process_pipeline_state.h">
+      <Filter>Headers\PipelineState</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Object\game_constant.h">
+      <Filter>Headers\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\PipelineState\fullscreen_quad_pipeline_state.h">
+      <Filter>Headers\PipelineState</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Object\post_process_volume_object.h">
+      <Filter>Headers\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Editor\editor_items.h">
+      <Filter>Headers\Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\subpixel_morphological_anti_aliasing\textures\AreaTex.h">
+      <Filter>External\subpixel_morphological_anti_aliasing\textures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\subpixel_morphological_anti_aliasing\textures\SearchTex.h">
+      <Filter>External\subpixel_morphological_anti_aliasing\textures</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\PipelineState\anti_alias_pipeline_state.h">
+      <Filter>Headers\PipelineState</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Renderer\scene_renderer_postprocess.h">
+      <Filter>Headers\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Renderer\scene_renderer_forward.h">
+      <Filter>Headers\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\implot\implot.h">
+      <Filter>External\implot</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\implot\implot_internal.h">
+      <Filter>External\implot</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\imtimeline\ImTimeline.h">
+      <Filter>External\imtimeline</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Renderer\renderer_context.h">
+      <Filter>Headers\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Renderer\renderer_domain.h">
+      <Filter>Headers\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Renderer\render_job_executor.h">
+      <Filter>Headers\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Object\messenger.h">
+      <Filter>Headers\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\ImGuizmo\ImGradient.h">
+      <Filter>External\imguizmo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\ImGuizmo\ImGuizmo.h">
+      <Filter>External\imguizmo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\ImGuizmo\ImLightRig.h">
+      <Filter>External\imguizmo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\ImGuizmo\ImSequencer.h">
+      <Filter>External\imguizmo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\ImGuizmo\ImZoomSlider.h">
+      <Filter>External\imguizmo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\ImGuizmo\GraphEditor.h">
+      <Filter>External\imguizmo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\ImGuizmo\ImCurveEdit.h">
+      <Filter>External\imguizmo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\ImguiCurveEditor\ImGuiCurveEditor.h">
+      <Filter>External\ImGuiCurveEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\im-neo-sequencer\imgui_neo_sequencer.h">
+      <Filter>External\im-neo-sequencer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\im-neo-sequencer\imgui_neo_internal.h">
+      <Filter>External\im-neo-sequencer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\ImGuiExternal\imgui_external.h">
+      <Filter>External\ImGuiExternal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\ImGuiExternal\small_button_cloud.hxx">
+      <Filter>External\ImGuiExternal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\External\ImGuiExternal\statefull_menu_type.hxx">
+      <Filter>External\ImGuiExternal</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\Shaders\DeferredRendering\deferred_rendering_directional_ps.hlsl">
+      <Filter>Shaders\DeferredRendering</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Shaders\DeferredRendering\deferred_rendering_indirect_ps.hlsl">
+      <Filter>Shaders\DeferredRendering</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Shaders\DeferredRendering\deferred_rendering_point_ps.hlsl">
+      <Filter>Shaders\DeferredRendering</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Shaders\DeferredRendering\deferred_rendering_spot_ps.hlsl">
+      <Filter>Shaders\DeferredRendering</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Shaders\DeferredRendering\convert_linear_to_srgb_ps.hlsl">
+      <Filter>Shaders\DeferredRendering</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Shaders\FullscreenQuad\fullscreen_quad_ps.hlsl">
+      <Filter>Shaders\FullscreenQuad</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Shaders\FullscreenQuad\fullscreen_quad_vs.hlsl">
+      <Filter>Shaders\FullscreenQuad</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Shaders\GeometricPrimitive\geometric_primitive_vs.hlsl">
+      <Filter>Shaders\GeometricPrimitive</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Shaders\GeometricPrimitive\geometric_primitive_ps.hlsl">
+      <Filter>Shaders\GeometricPrimitive</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Shaders\SkyBox\sky_box_vs.hlsl">
+      <Filter>Shaders\SkyBox</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Shaders\Sprite\sprite_vs.hlsl">
+      <Filter>Shaders\Sprite</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Shaders\Sprite\sprite_ps.hlsl">
+      <Filter>Shaders\Sprite</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Shaders\SkyBox\sky_box_gbuffer_ps.hlsl">
+      <Filter>Shaders\SkyBox</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Shaders\SkyBox\sky_box_forward_ps.hlsl">
+      <Filter>Shaders\SkyBox</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Shaders\GeometricPrimitive\debug_draw_line_vs.hlsl">
+      <Filter>Shaders\GeometricPrimitive</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Shaders\GeometricPrimitive\debug_draw_line_ps.hlsl">
+      <Filter>Shaders\GeometricPrimitive</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Shaders\Postprocess\color_filter_before_tone_mapping_ps.hlsl">
+      <Filter>Shaders\Postprocess</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Shaders\DeferredRendering\convert_srgb_to_linear_ps.hlsl">
+      <Filter>Shaders\DeferredRendering</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Shaders\Postprocess\color_filter_before_translucent_ps.hlsl">
+      <Filter>Shaders\Postprocess</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Shaders\Postprocess\color_filter_after_tone_mapping_ps.hlsl">
+      <Filter>Shaders\Postprocess</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Shaders\Gltf\gltf_csm_vs.hlsl">
+      <Filter>Shaders\Gltf</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Shaders\Gltf\gltf_depth_vs.hlsl">
+      <Filter>Shaders\Gltf</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Shaders\Gltf\gltf_forward_ps.hlsl">
+      <Filter>Shaders\Gltf</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Shaders\Gltf\gltf_forward_vs.hlsl">
+      <Filter>Shaders\Gltf</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Shaders\Gltf\gltf_gbuffer_ps.hlsl">
+      <Filter>Shaders\Gltf</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Shaders\Gltf\gltf_gbuffer_vs.hlsl">
+      <Filter>Shaders\Gltf</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Shaders\Gltf\gltf_csm_gs.hlsl">
+      <Filter>Shaders\Gltf</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Shaders\FullscreenQuad\decompress_rgb_to_log_ps.hlsl">
+      <Filter>Shaders\FullscreenQuad</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Shaders\FullscreenQuad\compress_rgb_to_log_ps.hlsl">
+      <Filter>Shaders\FullscreenQuad</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Shaders\Common\summed_area_table_y.hlsl">
+      <Filter>Shaders\Common</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Shaders\Common\summed_area_table_x.hlsl">
+      <Filter>Shaders\Common</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Shaders\Gltf\gltf_depth_ps.hlsl">
+      <Filter>Shaders\Gltf</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Shaders\Gltf\gltf_csm_ps.hlsl">
+      <Filter>Shaders\Gltf</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Shaders\Postprocess\DepthOfField\dof_filter_setup_cs.hlsl">
+      <Filter>Shaders\Postprocess\DepthOfField</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Shaders\Postprocess\DepthOfField\dof_apply_cs.hlsl">
+      <Filter>Shaders\Postprocess\DepthOfField</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Shaders\Postprocess\ScreenSpaceReflection\screen_space_reflection_uv_ps.hlsl">
+      <Filter>Shaders\Postprocess\ScreenSpaceReflection</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Shaders\Postprocess\ScreenSpaceReflection\screen_space_reflection_color_ps.hlsl">
+      <Filter>Shaders\Postprocess\ScreenSpaceReflection</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Shaders\Postprocess\ScreenSpaceReflection\screen_space_reflection_composite_ps.hlsl">
+      <Filter>Shaders\Postprocess\ScreenSpaceReflection</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Shaders\Postprocess\ScreenSpaceReflection\screen_space_reflection_denoise_cs.hlsl">
+      <Filter>Shaders\Postprocess\ScreenSpaceReflection</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Shaders\Postprocess\ScreenSpaceReflection\screen_space_reflection_temporal_filtering_cs.hlsl">
+      <Filter>Shaders\Postprocess\ScreenSpaceReflection</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Shaders\Postprocess\Antialias\smaa_neighborhood_blending_vs.hlsl">
+      <Filter>Shaders\Postprocess\Antialias</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Shaders\Postprocess\Antialias\smaa_blending_weight_calculation_ps.hlsl">
+      <Filter>Shaders\Postprocess\Antialias</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Shaders\Postprocess\Antialias\smaa_blending_weight_calculation_vs.hlsl">
+      <Filter>Shaders\Postprocess\Antialias</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Shaders\Postprocess\Antialias\smaa_edge_detection_ps.hlsl">
+      <Filter>Shaders\Postprocess\Antialias</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Shaders\Postprocess\Antialias\smaa_edge_detection_vs.hlsl">
+      <Filter>Shaders\Postprocess\Antialias</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Shaders\Postprocess\Antialias\smaa_neighborhood_blending_ps.hlsl">
+      <Filter>Shaders\Postprocess\Antialias</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Shaders\Postprocess\DepthOfField\dof_vertical_integrate_cs.hlsl">
+      <Filter>Shaders\Postprocess\DepthOfField</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Shaders\Postprocess\MotionBlur\motion_blur_cs.hlsl">
+      <Filter>Shaders\Postprocess\MotionBlur</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Shaders\Postprocess\MotionBlur\reconstract_velocity_cs.hlsl">
+      <Filter>Shaders\Postprocess\MotionBlur</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Shaders\Postprocess\MotionBlur\feature_mask_cs.hlsl">
+      <Filter>Shaders\Postprocess\MotionBlur</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Shaders\Postprocess\ColorGrading\tone_mapping_cs.hlsl">
+      <Filter>Shaders\Postprocess\ColorGrading</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Shaders\Postprocess\ColorGrading\correct_luminance_cs.hlsl">
+      <Filter>Shaders\Postprocess\ColorGrading</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Shaders\Postprocess\System\fast_fourier_transform_cs.hlsl">
+      <Filter>Shaders\Postprocess\System</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Shaders\Postprocess\System\fast_fourier_transform_gaussian_filter_cs.hlsl">
+      <Filter>Shaders\Postprocess\System</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Shaders\Postprocess\System\resize_copy_cs.hlsl">
+      <Filter>Shaders\Postprocess\System</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Shaders\Postprocess\Bloom\bloom_additional_cs.hlsl">
+      <Filter>Shaders\Postprocess\Bloom</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Shaders\Postprocess\System\fast_fourier_transform_complex_multiply_cs.hlsl">
+      <Filter>Shaders\Postprocess\System</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Shaders\Postprocess\System\centering_copy_cs.hlsl">
+      <Filter>Shaders\Postprocess\System</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Shaders\Postprocess\Bloom\kernel_averaging_cs.hlsl">
+      <Filter>Shaders\Postprocess\Bloom</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Shaders\Postprocess\Bloom\luminance_extract_cs.hlsl">
+      <Filter>Shaders\Postprocess\Bloom</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Shaders\Postprocess\Bloom\bloom_additional_half_cs.hlsl">
+      <Filter>Shaders\Postprocess\Bloom</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Shaders\Postprocess\Bloom\generate_ghost_cs.hlsl">
+      <Filter>Shaders\Postprocess\Bloom</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Shaders\Postprocess\Antialias\fast_approximate_anti_aliasing_ps.hlsl">
+      <Filter>Shaders\Postprocess\Antialias</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Shaders\Common\lights.hlsli">
+      <Filter>Shaders\Common</Filter>
+    </None>
+    <None Include="..\Shaders\Common\scene_constant_buffer.hlsli">
+      <Filter>Shaders\Common</Filter>
+    </None>
+    <None Include="..\Shaders\Common\shading_functions.hlsli">
+      <Filter>Shaders\Common</Filter>
+    </None>
+    <None Include="..\Shaders\Common\summed_area_table.hlsli">
+      <Filter>Shaders\Common</Filter>
+    </None>
+    <None Include="..\Shaders\Common\common.hlsli">
+      <Filter>Shaders\Common</Filter>
+    </None>
+    <None Include="..\Shaders\Common\filter_functions.hlsli">
+      <Filter>Shaders\Common</Filter>
+    </None>
+    <None Include="..\Shaders\DeferredRendering\deferred_rendering.hlsli">
+      <Filter>Shaders\DeferredRendering</Filter>
+    </None>
+    <None Include="..\Shaders\DeferredRendering\gbuffer.hlsli">
+      <Filter>Shaders\DeferredRendering</Filter>
+    </None>
+    <None Include="..\Shaders\DeferredRendering\shading_models.hlsli">
+      <Filter>Shaders\DeferredRendering</Filter>
+    </None>
+    <None Include="..\Shaders\FullscreenQuad\fullscreen_quad.hlsli">
+      <Filter>Shaders\FullscreenQuad</Filter>
+    </None>
+    <None Include="..\Shaders\GeometricPrimitive\geometric_primitive.hlsli">
+      <Filter>Shaders\GeometricPrimitive</Filter>
+    </None>
+    <None Include="..\Shaders\GeometricPrimitive\geometric_primitive_object_data.hlsli">
+      <Filter>Shaders\GeometricPrimitive</Filter>
+    </None>
+    <None Include="..\Shaders\SkyBox\sky_box.hlsli">
+      <Filter>Shaders\SkyBox</Filter>
+    </None>
+    <None Include="..\Shaders\Sprite\sprite.hlsli">
+      <Filter>Shaders\Sprite</Filter>
+    </None>
+    <None Include="..\Shaders\Model\model.hlsli">
+      <Filter>Shaders\Model</Filter>
+    </None>
+    <None Include="..\Shaders\Model\model_depth_vs.hlsli">
+      <Filter>Shaders\Model</Filter>
+    </None>
+    <None Include="..\Shaders\Model\model_vs.hlsli">
+      <Filter>Shaders\Model</Filter>
+    </None>
+    <None Include="..\Shaders\GeometricPrimitive\debug_draw_line.hlsli">
+      <Filter>Shaders\GeometricPrimitive</Filter>
+    </None>
+    <None Include="..\Shaders\Model\model_cascade_shadow_map_gs.hlsli">
+      <Filter>Shaders\Model</Filter>
+    </None>
+    <None Include="..\Shaders\Model\model_cascade_shadow_map_vs.hlsli">
+      <Filter>Shaders\Model</Filter>
+    </None>
+    <None Include="..\Shaders\Model\model_cascade_shadow_map.hlsli">
+      <Filter>Shaders\Model</Filter>
+    </None>
+    <None Include="..\Shaders\Common\shadow_map.hlsli">
+      <Filter>Shaders\Common</Filter>
+    </None>
+    <None Include="..\Shaders\DeferredRendering\gbuffer_decal_constant_buffer.hlsli">
+      <Filter>Shaders\DeferredRendering</Filter>
+    </None>
+    <None Include="..\Shaders\Common\common_post_process.hlsli">
+      <Filter>Shaders\Common</Filter>
+    </None>
+    <None Include="..\Shaders\Gltf\gltf_rendering.hlsli">
+      <Filter>Shaders\Gltf</Filter>
+    </None>
+    <None Include="..\Shaders\Gltf\gltf_surface.hlsli">
+      <Filter>Shaders\Gltf</Filter>
+    </None>
+    <None Include="..\Shaders\Model\material_parameter_constant_buffer.hlsli">
+      <Filter>Shaders\Model</Filter>
+    </None>
+    <None Include="..\Shaders\Model\model_forward_ps.hlsli">
+      <Filter>Shaders\Model</Filter>
+    </None>
+    <None Include="..\Shaders\Model\model_gbuffer_ps.hlsli">
+      <Filter>Shaders\Model</Filter>
+    </None>
+    <None Include="..\Shaders\Model\forward_light_data.hlsli">
+      <Filter>Shaders\Model</Filter>
+    </None>
+    <None Include="..\Shaders\Model\deferred_light_data.hlsli">
+      <Filter>Shaders\Model</Filter>
+    </None>
+    <None Include="..\Shaders\Model\model_depth_write_ps.hlsli">
+      <Filter>Shaders\Model</Filter>
+    </None>
+    <None Include="..\Shaders\Postprocess\DepthOfField\depth_of_field.hlsli">
+      <Filter>Shaders\Postprocess\DepthOfField</Filter>
+    </None>
+    <None Include="..\Shaders\Postprocess\ScreenSpaceReflection\screen_space_reflection.hlsli">
+      <Filter>Shaders\Postprocess\ScreenSpaceReflection</Filter>
+    </None>
+    <None Include="..\Shaders\Postprocess\ScreenSpaceReflection\screen_space_reflection_denoise.hlsli">
+      <Filter>Shaders\Postprocess\ScreenSpaceReflection</Filter>
+    </None>
+    <None Include="..\External\subpixel_morphological_anti_aliasing\SMAA.hlsli">
+      <Filter>External\subpixel_morphological_anti_aliasing</Filter>
+    </None>
+    <None Include="..\Shaders\Postprocess\Antialias\subpixel_morphological_anti_aliasing.hlsli">
+      <Filter>Shaders\Postprocess\Antialias</Filter>
+    </None>
+    <None Include="..\Shaders\Postprocess\MotionBlur\motion_blur.hlsli">
+      <Filter>Shaders\Postprocess\MotionBlur</Filter>
+    </None>
+    <None Include="..\Shaders\Postprocess\ColorGrading\tone_mapping.hlsli">
+      <Filter>Shaders\Postprocess\ColorGrading</Filter>
+    </None>
+    <None Include="..\Shaders\Gltf\gltf_surface_alpha.hlsli">
+      <Filter>Shaders\Gltf</Filter>
+    </None>
+    <None Include="..\Shaders\DeferredRendering\common_gbuffer_writer.hlsli">
+      <Filter>Shaders\DeferredRendering</Filter>
+    </None>
+    <None Include="..\Shaders\DeferredRendering\common_gbuffer_loader.hlsli">
+      <Filter>Shaders\DeferredRendering</Filter>
+    </None>
+    <None Include="..\Shaders\Postprocess\Bloom\bloom.hlsli">
+      <Filter>Shaders\Postprocess\Bloom</Filter>
+    </None>
+    <None Include="..\Shaders\Ggst\ggst_rendering.hlsli">
+      <Filter>Shaders\Ggst</Filter>
+    </None>
+    <None Include="..\Shaders\Ggst\ggst_surface.hlsli">
+      <Filter>Shaders\Ggst</Filter>
+    </None>
+    <None Include="..\Shaders\Ggst\ggst_surface_alpha.hlsli">
+      <Filter>Shaders\Ggst</Filter>
+    </None>
+  </ItemGroup>
+</Project>
