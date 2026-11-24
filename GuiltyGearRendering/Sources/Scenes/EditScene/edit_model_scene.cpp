@@ -67,7 +67,7 @@ bool edit_model_scene::initialize_core()
 	//	ƒ‚ƒfƒ‹¶¬
 	{
 	//	load_model("Assets/Resources/Models/Sponza/glTF/Sponza.gltf");
-		load_model("Assets/Resources/Models/Umber/Umber.emo");
+		load_model("Assets/Resources/Models/Umber/Umber-Sample.emo");
 	//	load_model("Assets/Resources/Models/Cartoon_City/Cartoon_City.emo");
 	//	load_model("Assets/Resources/Models/city_2/city_2.glb");
 	//	load_model("Assets/Resources/Models/BJ/BJ.emo"); if (next_edit_model) { next_edit_model->set_scale({ 0.1f, 0.1f , 0.1f });	next_edit_model->play_animation(1, false); }
